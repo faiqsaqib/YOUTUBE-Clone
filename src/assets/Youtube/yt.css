@@ -1,0 +1,237 @@
+
+/* --------NAVBAR-------- */
+
+
+.navbar {
+    position: relative;
+    background-color: black;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #c9c3c3; Red background color, customize as needed */
+    padding: 20px;
+  }
+  .logo{
+    margin: 0 0 0 2rem;
+    width: 2.5rem;
+    height: 2.3rem;
+    display: flex;
+    align-items: center;
+
+  }
+  .logo > h1{
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    margin: 0 0 0 .5em;
+  }
+
+  .logo img {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+  }
+  .search-bar {
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input {
+    width: 500px;
+    height: 2.2em;
+    border: 0.5px solid #494545;
+    padding: 5px 20px;
+    border-radius: 20px;
+    box-shadow: none;
+    /* border: none; */
+}
+#searchIcon{
+    margin: 0 0 0 -2rem;
+    color: #aa9696;
+
+}
+
+.search-bar input:focus {
+    /* outline: none; */
+    /* border: 1px solid #8e8b8b; */
+    background-color: #151414;
+}
+  .nav-links{
+    margin: 0 3rem 0 0;
+  }
+  .nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+
+/* --------SIDEBAR-------- */
+
+.sidebar {
+    width: 230px;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    margin-left: 10px;
+    border-right: 1px solid #494545;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar-nav {
+    list-style: none;
+}
+
+.sidebar-nav li {
+    /* width: 0.1px; */
+    padding: 10px 20px;
+    width: 220px;
+    /* border-top: 1px solid #eee; */
+    /* transition-timing-function: ease; */
+}
+
+.sidebar-nav li:hover{
+    border-bottom: 1px solid #777474;
+    border-top: 1px solid #777474;
+    border-left: 1px solid #777474;
+    background-color: #131212;
+    border-radius: 10px;
+    /*width: 230px;
+    */
+
+}
+.sidebar-nav2 li:hover{
+    border-bottom: 1px solid #777474;
+    border-top: 1px solid #777474;
+    border-left: 1px solid #777474;
+    background-color: #131212;
+    border-radius: 10px;
+    /* width: 230px; */
+}
+
+.sidebar-nav a {
+    text-decoration: none;
+    /* color: #333; */
+    font-weight: 400;
+}
+.sidebar-nav2{
+    /* width: 0.1px; */
+    width: 220px;
+    list-style: none;
+    margin-top: 10px;
+    
+}
+.sidebar-nav2 li {
+    padding: 10px 20px;
+    /* border-top: 1px solid #eee; */
+    /* transition-timing-function: ease; */
+}
+
+.sidebar-nav2 a {
+    text-decoration: none;
+    /* color: #333; */
+    font-weight: 400;
+}
+
+.sub{
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sub:hover{
+    text-transform: uppercase;
+}
+.sidebar-icons  {
+    font-size: 16px;
+    margin-right: 12px;
+}
+
+.list{
+    display: flex;
+    gap: 10px;
+}
+
+/* --------------main-------------- */
+
+
+.main{
+    /* border: 1px solid white; */
+    width:82.4%;
+    height: auto;
+    margin-left: 270px;
+}
+
+.main-buttons{
+    /* width: 82.4%; */
+    /* height: 50px; */
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+}
+
+
+
+/* Youtube videos thumbnails */
+
+.card-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    width: 390px;
+    /* background-color: #fff; */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    /* border-radius: 8px; */
+    margin-top: 20px;
+    border: none;
+    overflow: hidden;
+}
+
+
+.card .thumbnail-img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 230px;
+    /* border-radius: 20px; */
+
+}
+
+.thumbnail-img img{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.card-info {
+    padding: 12px;
+}
+
+.video-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.channel-name {
+    font-size: 14px;
+    color: #777;
+    margin: 4px 0;
+}
+
+.views {
+    font-size: 14px;
+    color: #777;
+    margin: 4px 0;
+}
